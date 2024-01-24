@@ -1,0 +1,17 @@
+POST http://localhost:4002/produtos
+Content-Type: application/json
+
+{
+    "nome": "Caderno",
+    "preco": 15
+}
+
+###
+
+PUT http://localhost:4002/produtos/8d0f5a7e-c0fc-4a37-9d0c-5d3ae0f87795
+Content-Type: application/json
+
+{
+	"nome": "Caneta",
+	"preco": 100
+}
